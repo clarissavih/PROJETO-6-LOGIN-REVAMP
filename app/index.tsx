@@ -12,14 +12,14 @@ export default function App() {
   const [adminPassword, setAdminPassword] = useState("1234")
 
   //4° requisito
-  const [userEmail,setUserEmail] = useState('davi.sousa146@aluno.ce.gov.br')
-  const [userName,setUserName] = useState('Davi Damasceno de Sousa')
-  const [userBirthday,setUserBirthday] = useState('02/10')
+  const [userEmail,setUserEmail] = useState('clarissa.siqueira@aluno.ce.gov.br')
+  const [userName,setUserName] = useState('Clarissa Vitória Rodrigues Siqueira')
+  const [userBirthday,setUserBirthday] = useState('03/04')
   const [userPassword, setUserPassword] = useState('12345')
   
 
   const handleLogin = () => {
-    if (email === "davi.sousa146@aluno.ce.gov@aluno.ce.gov.br" && password === 12345) {
+    if (email === "clarissa.siqueira@aluno.ce.gov.br" && password === 12345) {
       alert("Login successful")
       setEmail("")
       setPassword("")
